@@ -74,7 +74,7 @@ class App extends React.Component {
         }
         { !this.state.isLoggedIn && 
           <div className="alert alert-info">
-            <button onClick={() => this.auth('facebook')}> Entre com o Facebook para comentar </button>
+            <button onClick={() => this.auth('facebook')}> Entre com o Facebook para comentar. </button>
           </div>
         }
         <Comments comments={this.state.comments}/>
